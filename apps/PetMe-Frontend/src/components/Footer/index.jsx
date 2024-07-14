@@ -120,11 +120,13 @@ function Footer() {
 
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-md text-gray-500 sm:text-center dark:text-gray-400">
-          © 2024{" "}
+        <p>
+        &copy; {year} {" "}
           <Link to="https://flowbite.com/" class="hover:underline">
             PetMe™
           </Link>
           . All Rights Reserved.
+        </p>
         </span>
         <div className="flex mt-4 sm:justify-center sm:mt-0">
           <Link to="#">
